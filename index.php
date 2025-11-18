@@ -8,16 +8,32 @@
 </head>
 <body>
 <?php
- $x=10;
-  $y=5;
- $yigindi=$x+$y;
- $ayirma=$x-$y;
- $kopaytma=$x*$y;
-$bolinma=$x/$y;
-echo " yig'indi= $yigindi" ."<br>";
-echo  " ayirma=$ayirma" ."<br>";
-echo  "ko'paytma=$kopaytma". "<br>";
-echo  " bo'linma= $bolinma" ."<br>";
+ $a=10;
+ switch ($a){
+    case  "1";
+    echo " Bugun dushanba !";
+    break;
+    case "2";
+    echo " Bugun seyshanba !";
+    break;
+    case "3";
+    echo " Bugun chorshanba";
+    break;
+    case "4";
+    echo "Bugun payshanba !";
+    break;
+    case  "5";
+    echo " Bugun juma !";
+    break;
+    case "6";
+    echo "Bugun sanba !";
+    break;
+    case "7";
+    echo " Bugun yakshanba !";
+    break;
+    default;
+    echo "Bunday xafta kun yo'q !";
+ }
 ?>
 </body>
 </html>
